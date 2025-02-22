@@ -1,19 +1,19 @@
 version: "3.8"
 
 services:
-  # postgres:
-  #   image: postgres:15
-  #   container_name: pg15
-  #   restart: always
-  #   environment:
-  #     POSTGRES_PASSWORD: samsung01
-  #     # Force MD5 password encryption (if desired)
-  #     # POSTGRES_INITDB_ARGS: "--auth-host=md5"
-  #     POSTGRES_HOST_AUTH_METHOD: password
-  #   volumes:
-  #     - ./pgdata:/var/lib/postgresql/data
-  #   ports:
-  #     - "5432:5432"
+  postgres:
+    image: postgres:15
+    container_name: pg15
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: samsung01
+      # Force MD5 password encryption (if desired)
+      # POSTGRES_INITDB_ARGS: "--auth-host=md5"
+      # POSTGRES_HOST_AUTH_METHOD: password
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    ports:
+      - "8432:5432"
 
   # pgbouncer:
   #   image: edoburu/pgbouncer:latest
