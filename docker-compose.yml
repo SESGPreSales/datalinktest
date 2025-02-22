@@ -1,0 +1,48 @@
+version: "3.8"
+
+services:
+  # postgres:
+  #   image: postgres:15
+  #   container_name: pg15
+  #   restart: always
+  #   environment:
+  #     POSTGRES_PASSWORD: samsung01
+  #     # Force MD5 password encryption (if desired)
+  #     # POSTGRES_INITDB_ARGS: "--auth-host=md5"
+  #     POSTGRES_HOST_AUTH_METHOD: password
+  #   volumes:
+  #     - ./pgdata:/var/lib/postgresql/data
+  #   ports:
+  #     - "5432:5432"
+
+  # pgbouncer:
+  #   image: edoburu/pgbouncer:latest
+  #   container_name: pgbouncer
+  #   restart: always
+  #   # depends_on:
+  #   #   - postgres
+  #   ports:
+  #     - "5432:6432"
+  #   volumes:
+  #     # Mount a custom configuration file for PgBouncer
+  #     - .\pgbouncer\pgbouncer.ini:/etc/pgbouncer/pgbouncer.ini
+  #     - .\pgbouncer\userlist.txt:/etc/pgbouncer/userlist.txt
+  #     - .\pgbouncer\pgbouncer.log:/var/log/pgbouncer/pgbouncer.log
+  #   environment:
+  #     # You can pass additional environment variables if needed.
+  #     # For example, some images allow you to override settings.
+  #     # See the image documentation for details.
+  #     # Here, we assume the config files provide the necessary settings.
+  #     TZ: "Europe/Zurich"
+
+  pgcat:
+    image: pgedge/pgcat:latest
+    container_name: pgcat
+    restart: always
+    ports:
+      - "5432:6432"
+    volumes:
+      - ./pgcat.toml:/etc/pgcat/pgcat.toml
+
+volumes:
+  pgdata:

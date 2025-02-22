@@ -1,0 +1,272 @@
+2025-02-22 08:41:59.277 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 08:41:59.282 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 08:41:59.282 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 08:41:59.283 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 08:42:16.786 UTC [1] LOG C-0x7f27b206c3c0: postgres/datalink@192.168.0.1:46556 login attempt: db=postgres user=datalink tls=no replication=no
+2025-02-22 08:42:16.788 UTC [1] LOG S-0x7f27b1ff35c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:42:26.906 UTC [1] LOG S-0x7f27b1ff35c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:42:26.907 UTC [1] LOG C-0x7f27b206c680: postgres/datalink@192.168.0.1:49356 login attempt: db=postgres user=datalink tls=no replication=no
+2025-02-22 08:42:36.952 UTC [1] LOG S-0x7f27b1ff35c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:42:46.952 UTC [1] LOG S-0x7f27b1ff35c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:42:57.290 UTC [1] LOG S-0x7f27b1ff35c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:42:59.281 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:43:07.622 UTC [1] LOG S-0x7f27b1ff35c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:43:16.954 UTC [1] LOG C-0x7f27b206c3c0: postgres/datalink@192.168.0.1:46556 closing because: client_login_timeout (server down) (age=60s)
+2025-02-22 08:43:16.957 UTC [1] WARNING C-0x7f27b206c3c0: postgres/datalink@192.168.0.1:46556 pooler error: client_login_timeout (server down)
+2025-02-22 08:43:17.955 UTC [1] LOG S-0x7f27b1ff35c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:43:26.954 UTC [1] LOG C-0x7f27b206c680: postgres/datalink@192.168.0.1:49356 closing because: client_login_timeout (server down) (age=60s)
+2025-02-22 08:43:26.955 UTC [1] WARNING C-0x7f27b206c680: postgres/datalink@192.168.0.1:49356 pooler error: client_login_timeout (server down)
+2025-02-22 08:43:59.285 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:44:50.188 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 08:44:50.285 UTC [1] LOG client connections dropped, exiting
+2025-02-22 08:44:53.767 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 08:44:53.769 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 08:44:53.769 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 08:44:53.770 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 08:45:23.502 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 08:45:23.781 UTC [1] LOG client connections dropped, exiting
+2025-02-22 08:45:25.819 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 08:45:25.821 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 08:45:25.821 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 08:45:25.822 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 08:45:37.467 UTC [1] LOG C-0x7f240f9da3c0: postgres/datalink@192.168.0.1:34052 login attempt: db=postgres user=datalink tls=no replication=no
+2025-02-22 08:45:37.469 UTC [1] LOG S-0x7f240f9615c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:45:47.481 UTC [1] LOG S-0x7f240f9615c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:45:47.510 UTC [1] LOG C-0x7f240f9da680: postgres/datalink@192.168.0.1:52760 login attempt: db=postgres user=datalink tls=no replication=no
+2025-02-22 08:45:57.482 UTC [1] LOG S-0x7f240f9615c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:46:07.808 UTC [1] LOG S-0x7f240f9615c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:46:18.137 UTC [1] LOG S-0x7f240f9615c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:46:25.807 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:46:28.140 UTC [1] LOG S-0x7f240f9615c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:46:37.474 UTC [1] LOG C-0x7f240f9da3c0: postgres/datalink@192.168.0.1:34052 closing because: client_login_timeout (server down) (age=60s)
+2025-02-22 08:46:37.478 UTC [1] WARNING C-0x7f240f9da3c0: postgres/datalink@192.168.0.1:34052 pooler error: client_login_timeout (server down)
+2025-02-22 08:46:38.472 UTC [1] LOG S-0x7f240f9615c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:46:47.804 UTC [1] LOG C-0x7f240f9da680: postgres/datalink@192.168.0.1:52760 closing because: client_login_timeout (server down) (age=60s)
+2025-02-22 08:46:47.804 UTC [1] WARNING C-0x7f240f9da680: postgres/datalink@192.168.0.1:52760 pooler error: client_login_timeout (server down)
+2025-02-22 08:46:51.752 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 08:46:51.804 UTC [1] LOG client connections dropped, exiting
+2025-02-22 08:46:55.414 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 08:46:55.420 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 08:46:55.422 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 08:46:55.424 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 08:47:01.322 UTC [1] LOG C-0x7fe37bce13c0: postgres/datalink@192.168.0.1:38240 login attempt: db=postgres user=datalink tls=no replication=no
+2025-02-22 08:47:01.326 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:47:11.374 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:47:11.374 UTC [1] LOG C-0x7fe37bce1680: postgres/datalink@192.168.0.1:39720 login attempt: db=postgres user=datalink tls=no replication=no
+2025-02-22 08:47:21.419 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:47:31.744 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:47:41.745 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:47:52.074 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:47:55.406 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:48:01.403 UTC [1] LOG C-0x7fe37bce13c0: postgres/datalink@192.168.0.1:38240 closing because: client_login_timeout (server down) (age=60s)
+2025-02-22 08:48:01.404 UTC [1] WARNING C-0x7fe37bce13c0: postgres/datalink@192.168.0.1:38240 pooler error: client_login_timeout (server down)
+2025-02-22 08:48:02.076 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:48:11.406 UTC [1] LOG C-0x7fe37bce1680: postgres/datalink@192.168.0.1:39720 closing because: client_login_timeout (server down) (age=60s)
+2025-02-22 08:48:11.408 UTC [1] WARNING C-0x7fe37bce1680: postgres/datalink@192.168.0.1:39720 pooler error: client_login_timeout (server down)
+2025-02-22 08:48:55.402 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:49:55.409 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:50:55.393 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:51:31.298 UTC [1] LOG C-0x7fe37bce1680: pgbouncer/datalink@192.168.0.1:54584 login attempt: db=pgbouncer user=datalink tls=no replication=no
+2025-02-22 08:51:31.299 UTC [1] LOG C-0x7fe37bce1680: pgbouncer/datalink@192.168.0.1:54584 closing because: not allowed (age=0s)
+2025-02-22 08:51:31.301 UTC [1] WARNING C-0x7fe37bce1680: pgbouncer/datalink@192.168.0.1:54584 pooler error: not allowed
+2025-02-22 08:51:40.027 UTC [1] LOG C-0x7fe37bce1680: postgres/datalink@192.168.0.1:46698 login attempt: db=postgres user=datalink tls=no replication=no
+2025-02-22 08:51:40.029 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:51:50.052 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:51:55.393 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:52:00.056 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:52:10.058 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:52:20.393 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:52:30.403 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:52:40.063 UTC [1] LOG C-0x7fe37bce1680: postgres/datalink@192.168.0.1:46698 closing because: client_login_timeout (server down) (age=60s)
+2025-02-22 08:52:40.065 UTC [1] WARNING C-0x7fe37bce1680: postgres/datalink@192.168.0.1:46698 pooler error: client_login_timeout (server down)
+2025-02-22 08:52:55.387 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:53:55.391 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:54:55.396 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:55:55.399 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:56:55.396 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:57:15.188 UTC [1] LOG C-0x7fe37bce1680: postgres/datalink@192.168.0.1:46588 login attempt: db=postgres user=datalink tls=no replication=no
+2025-02-22 08:57:15.189 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:57:25.398 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:57:35.738 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:57:46.063 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:57:55.398 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 08:57:56.070 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:58:06.398 UTC [1] LOG S-0x7fe37bc685c0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:58:09.925 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 08:58:15.398 UTC [1] LOG C-0x7fe37bce1680: postgres/datalink@192.168.0.1:46588 closing because: client_login_timeout (server down) (age=60s)
+2025-02-22 08:58:15.400 UTC [1] WARNING C-0x7fe37bce1680: postgres/datalink@192.168.0.1:46588 pooler error: client_login_timeout (server down)
+2025-02-22 08:58:15.730 UTC [1] LOG client connections dropped, exiting
+2025-02-22 08:58:22.890 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 08:58:22.892 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 08:58:22.893 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 08:58:22.894 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 08:58:29.551 UTC [1] LOG C-0x7f38baf463c0: postgres/datalink@192.168.0.1:48342 login attempt: db=postgres user=datalink tls=no replication=no
+2025-02-22 08:58:29.556 UTC [1] LOG C-0x7f38baf463c0: postgres/datalink@192.168.0.1:48342 closing because: password authentication failed (age=0s)
+2025-02-22 08:58:29.557 UTC [1] WARNING C-0x7f38baf463c0: postgres/datalink@192.168.0.1:48342 pooler error: password authentication failed
+2025-02-22 08:58:34.937 UTC [1] LOG C-0x7f38baf463c0: postgres/datalink@192.168.0.1:36630 login attempt: db=postgres user=datalink tls=no replication=no
+2025-02-22 08:58:34.939 UTC [1] LOG C-0x7f38baf463c0: postgres/datalink@192.168.0.1:36630 closing because: password authentication failed (age=0s)
+2025-02-22 08:58:34.940 UTC [1] WARNING C-0x7f38baf463c0: postgres/datalink@192.168.0.1:36630 pooler error: password authentication failed
+2025-02-22 08:58:46.201 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 08:58:46.228 UTC [1] LOG client connections dropped, exiting
+2025-02-22 08:58:47.929 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 08:58:47.931 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 08:58:47.932 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 08:58:47.933 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 08:58:52.627 UTC [1] LOG C-0x7f32d4ec83c0: postgres/datalink@192.168.0.1:60672 login attempt: db=postgres user=datalink tls=no replication=no
+2025-02-22 08:58:52.634 UTC [1] LOG C-0x7f32d4ec83c0: postgres/datalink@192.168.0.1:60672 closing because: password authentication failed (age=0s)
+2025-02-22 08:58:52.634 UTC [1] WARNING C-0x7f32d4ec83c0: postgres/datalink@192.168.0.1:60672 pooler error: password authentication failed
+2025-02-22 08:59:31.074 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 08:59:31.274 UTC [1] LOG client connections dropped, exiting
+2025-02-22 08:59:33.158 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 08:59:33.159 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 08:59:33.160 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 08:59:33.160 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 08:59:41.694 UTC [1] LOG C-0x7f625229e3c0: postgres/datalink@192.168.0.1:50302 login attempt: db=postgres user=datalink tls=no replication=no
+2025-02-22 08:59:41.707 UTC [1] LOG S-0x7f62522255d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 08:59:51.831 UTC [1] LOG S-0x7f62522255d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:00:02.161 UTC [1] LOG S-0x7f62522255d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:00:03.304 UTC [1] LOG C-0x7f625229e680: postgres/datalink@192.168.0.1:47596 login attempt: db=postgres user=datalink tls=no replication=no
+2025-02-22 09:00:12.161 UTC [1] LOG S-0x7f62522255d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:00:22.163 UTC [1] LOG S-0x7f62522255d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:00:32.493 UTC [1] LOG S-0x7f62522255d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:00:33.161 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:00:41.828 UTC [1] LOG C-0x7f625229e3c0: postgres/datalink@192.168.0.1:50302 closing because: client_login_timeout (server down) (age=60s)
+2025-02-22 09:00:41.830 UTC [1] WARNING C-0x7f625229e3c0: postgres/datalink@192.168.0.1:50302 pooler error: client_login_timeout (server down)
+2025-02-22 09:00:42.494 UTC [1] LOG S-0x7f62522255d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:00:52.823 UTC [1] LOG S-0x7f62522255d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:01:02.834 UTC [1] LOG S-0x7f62522255d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:01:03.502 UTC [1] LOG C-0x7f625229e680: postgres/datalink@192.168.0.1:47596 closing because: client_login_timeout (server down) (age=60s)
+2025-02-22 09:01:03.504 UTC [1] WARNING C-0x7f625229e680: postgres/datalink@192.168.0.1:47596 pooler error: client_login_timeout (server down)
+2025-02-22 09:01:33.160 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:02:09.267 UTC [1] LOG S-0x7f62522255d0: postgres/pgbouncer@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:02:19.493 UTC [1] LOG S-0x7f62522255d0: postgres/pgbouncer@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:02:29.494 UTC [1] LOG S-0x7f62522255d0: postgres/pgbouncer@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:02:33.160 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:02:39.495 UTC [1] LOG S-0x7f62522255d0: postgres/pgbouncer@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:02:49.820 UTC [1] LOG S-0x7f62522255d0: postgres/pgbouncer@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:02:59.826 UTC [1] LOG S-0x7f62522255d0: postgres/pgbouncer@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:03:09.835 UTC [1] LOG S-0x7f62522255d0: postgres/pgbouncer@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:03:12.032 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 09:03:20.162 UTC [1] LOG S-0x7f62522255d0: postgres/pgbouncer@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:03:24.395 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 09:03:24.397 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 09:03:24.398 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 09:03:24.399 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 09:03:36.581 UTC [1] LOG C-0x7f7f45f043c0: postgres/postgres@192.168.0.1:33778 login attempt: db=postgres user=postgres tls=no replication=no
+2025-02-22 09:03:36.586 UTC [1] LOG S-0x7f7f45e8b5d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:03:46.726 UTC [1] LOG S-0x7f7f45e8b5d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:03:57.053 UTC [1] LOG S-0x7f7f45e8b5d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:03:57.338 UTC [1] LOG C-0x7f7f45f04680: postgres/postgres@192.168.0.1:54688 login attempt: db=postgres user=postgres tls=no replication=no
+2025-02-22 09:04:07.372 UTC [1] LOG S-0x7f7f45e8b5d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:04:17.378 UTC [1] LOG S-0x7f7f45e8b5d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:04:24.368 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:04:27.707 UTC [1] LOG S-0x7f7f45e8b5d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:04:36.710 UTC [1] LOG C-0x7f7f45f043c0: postgres/postgres@192.168.0.1:33778 closing because: client_login_timeout (server down) (age=60s)
+2025-02-22 09:04:36.713 UTC [1] WARNING C-0x7f7f45f043c0: postgres/postgres@192.168.0.1:33778 pooler error: client_login_timeout (server down)
+2025-02-22 09:04:38.041 UTC [1] LOG S-0x7f7f45e8b5d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:04:48.369 UTC [1] LOG S-0x7f7f45e8b5d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:04:57.376 UTC [1] LOG C-0x7f7f45f04680: postgres/postgres@192.168.0.1:54688 closing because: client_login_timeout (server down) (age=60s)
+2025-02-22 09:04:57.383 UTC [1] WARNING C-0x7f7f45f04680: postgres/postgres@192.168.0.1:54688 pooler error: client_login_timeout (server down)
+2025-02-22 09:05:24.359 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:05:51.540 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 09:05:51.701 UTC [1] LOG client connections dropped, exiting
+2025-02-22 09:05:53.532 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 09:05:53.534 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 09:05:53.534 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 09:05:53.535 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 09:06:10.054 UTC [1] LOG C-0x7fe9e88df3c0: postgres/postgres@192.168.0.1:58522 login attempt: db=postgres user=postgres tls=no replication=no
+2025-02-22 09:06:10.059 UTC [1] LOG S-0x7fe9e88665d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:06:20.210 UTC [1] LOG S-0x7fe9e88665d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:06:30.219 UTC [1] LOG S-0x7fe9e88665d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:06:40.545 UTC [1] LOG S-0x7fe9e88665d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:06:50.550 UTC [1] LOG S-0x7fe9e88665d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:06:53.545 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:07:00.880 UTC [1] LOG S-0x7fe9e88665d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 09:07:10.214 UTC [1] LOG C-0x7fe9e88df3c0: postgres/postgres@192.168.0.1:58522 closing because: client_login_timeout (server down) (age=60s)
+2025-02-22 09:07:10.215 UTC [1] WARNING C-0x7fe9e88df3c0: postgres/postgres@192.168.0.1:58522 pooler error: client_login_timeout (server down)
+2025-02-22 09:07:53.549 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:08:53.543 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:09:53.550 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:10:53.552 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:11:53.547 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:12:53.549 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:12:57.958 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 09:12:58.214 UTC [1] LOG client connections dropped, exiting
+2025-02-22 09:13:00.188 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 09:13:00.191 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 09:13:00.192 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 09:13:00.193 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 09:13:12.789 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 09:13:12.858 UTC [1] LOG client connections dropped, exiting
+2025-02-22 09:13:43.310 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 09:13:43.313 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 09:13:43.313 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 09:13:43.314 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 09:14:43.314 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:15:40.380 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 09:15:40.645 UTC [1] LOG client connections dropped, exiting
+2025-02-22 09:18:57.154 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 09:18:57.158 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 09:18:57.158 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 09:18:57.159 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 09:19:57.159 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:20:57.161 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:21:57.157 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:22:57.158 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:23:57.153 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:24:55.993 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 09:24:56.146 UTC [1] LOG client connections dropped, exiting
+2025-02-22 09:24:57.566 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 09:24:57.567 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 09:24:57.568 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 09:24:57.568 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 09:25:57.572 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:26:57.566 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:27:16.616 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 09:27:16.908 UTC [1] LOG client connections dropped, exiting
+2025-02-22 09:27:18.064 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 09:27:18.065 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 09:27:18.066 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 09:27:18.067 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 09:28:18.055 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:29:18.057 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:30:18.051 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:30:39.885 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 09:30:40.065 UTC [1] LOG client connections dropped, exiting
+2025-02-22 09:30:40.954 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 09:30:40.955 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 09:30:40.956 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 09:30:40.956 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 09:31:40.951 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:32:40.950 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:33:40.948 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:33:52.671 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 09:33:52.947 UTC [1] LOG client connections dropped, exiting
+2025-02-22 09:33:53.758 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 09:33:53.760 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 09:33:53.760 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 09:33:53.760 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 09:34:53.754 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:35:53.765 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:36:53.750 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:37:53.754 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:38:53.755 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:39:53.752 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:40:53.752 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 09:41:02.453 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 09:41:02.755 UTC [1] LOG client connections dropped, exiting
+2025-02-22 13:06:02.154 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-02-22 13:06:02.157 UTC [1] LOG listening on 0.0.0.0:6432
+2025-02-22 13:06:02.157 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-02-22 13:06:02.158 UTC [1] LOG process up: PgBouncer 1.24.0, libevent 2.1.12-stable (epoll), adns: evdns2, tls: OpenSSL 3.3.2 3 Sep 2024
+2025-02-22 13:06:45.672 UTC [1] LOG C-0x7f37d89083c0: postgres/postgres@172.23.0.1:53858 login attempt: db=postgres user=postgres tls=no replication=no
+2025-02-22 13:06:45.691 UTC [1] LOG C-0x7f37d89083c0: postgres/postgres@172.23.0.1:53858 closing because: password authentication failed (age=0s)
+2025-02-22 13:06:45.692 UTC [1] WARNING C-0x7f37d89083c0: postgres/postgres@172.23.0.1:53858 pooler error: password authentication failed
+2025-02-22 13:06:53.780 UTC [1] LOG C-0x7f37d89083c0: postgres/postgres@172.23.0.1:53874 login attempt: db=postgres user=postgres tls=no replication=no
+2025-02-22 13:06:53.783 UTC [1] LOG S-0x7f37d888f5d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 13:07:02.142 UTC [1] LOG stats: 0 xacts/s, 0 queries/s, 0 client parses/s, 0 server parses/s, 0 binds/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2025-02-22 13:07:03.806 UTC [1] LOG S-0x7f37d888f5d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 13:07:13.807 UTC [1] LOG S-0x7f37d888f5d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 13:07:24.136 UTC [1] LOG S-0x7f37d888f5d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)
+2025-02-22 13:07:28.144 UTC [1] LOG got SIGTERM, shutting down, waiting for all clients disconnect
+2025-02-22 13:07:34.141 UTC [1] LOG S-0x7f37d888f5d0: postgres/postgres@127.0.0.1:7432 closing because: connect failed (age=0s)

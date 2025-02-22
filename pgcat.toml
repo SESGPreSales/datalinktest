@@ -1,0 +1,43 @@
+[general]
+host = "0.0.0.0"
+port = 6432
+log_level = "debug"
+admin_username = ""
+admin_password = "" 
+
+[pool]
+mode = "transaction"
+default_pool_size = 10
+min_pool_size = 5
+max_pool_size = 50
+
+# [users]
+# # The client (your app) connects using this user and password (MD5 hashed)
+# datalink.password = "md5a6adcb9c3d0eaa4e02b6b66a422bb0fa"
+# datalink.pool_size = 10
+
+[pools.postgres]
+
+[pools.postgres.users.0]
+pool_size = 10
+username = "postgres"
+password = "samsung01"
+
+[pools.postgres.shards.0]
+database = "postgres"
+servers = [
+    ["host.docker.internal", 7432, "primary"],
+]
+
+[pools.datalink]
+
+[pools.datalink.users.0]
+pool_size = 10
+username = "postgres"
+password = "samsung01"
+
+[pools.datalink.shards.0]
+database = "postgres"
+servers = [
+    ["host.docker.internal", 7432, "primary"],
+]
