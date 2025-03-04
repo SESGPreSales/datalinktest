@@ -31,7 +31,7 @@ password = "samsung01"
 
 [pools.postgres.shards.0]
 database = "postgres"
-servers = [["postgres", 5432, "primary"]]
+servers = [["host.docker.internal", 5432, "primary"]]
 
 [pools.datalink]
 
@@ -39,6 +39,7 @@ servers = [["postgres", 5432, "primary"]]
 pool_size = 10
 username = "datalink"
 password = "datalink2019!"
+
 [pools.datalink.users.1]
 pool_size = 10
 username = "postgres"
@@ -48,4 +49,4 @@ password = "samsung01"
 # servers = [["host.docker.internal", 7432, "primary"]]
 [pools.datalink.shards.0]
 database = "datalink"
-servers = [["postgres", 5432, "primary"]]
+servers = [["host.docker.internal", 5432, "primary"]]

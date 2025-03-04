@@ -51,13 +51,14 @@ services:
         container_name: pgcat
         restart: always
         ports:
-          - "5432:6432"
+          - "6432:6432"
         volumes:
           - ./pgcat.toml:/etc/pgcat/pgcat.toml
 
 ```
 
-This will start a container running `pgcat` ans listening to port `5432` on the host
+This will later start a container running `pgcat` ans listening to port `6432` on the host.
+
 Then prepare a pgcat config file (Save the file on the same folder as the `docker-compose.yml` is ):
 
 `pgcat.toml`
@@ -86,12 +87,12 @@ max_pool_size = 50
 [pools.postgres.users.0]
 pool_size = 10
 username = "postgres"
-password = "samsung01"
+password = "samsung01" # should match your postgres user password
 
 [pools.postgres.shards.0]
 database = "postgres"
 servers = [
-    ["host.docker.internal", 7432, "primary"],
+    ["host.docker.internal", 5432, "primary"],
 ]
 
 [pools.datalink]
@@ -99,14 +100,28 @@ servers = [
 [pools.datalink.users.0]
 pool_size = 10
 username = "postgres"
-password = "samsung01"
+password = "samsung01" # should match your postgres user password
 
 [pools.datalink.shards.0]
 database = "postgres"
 servers = [
-    ["host.docker.internal", 7432, "primary"],
+    ["host.docker.internal", 5432, "primary"],
 ]
 ```
+
+Start the PGProxy
+```
+docker compose up -d
+```
+
+you can use any postgresql client to check if PG Cat is working, by conneting the client to 
+
+``` 
+localhost:6432/postgres
+``` 
+using the credentials `postgres` with the password you set (`samsung01` in this example)
+
+> note the port **6432** which is not PostgreSQL, but PGCat
 
 ## Step-by-step
 
